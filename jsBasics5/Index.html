@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Конвертер валют</title>
+</head>
+<body>
+  <input type="number" id="amount" placeholder="Введіть суму">
+  <select id="fromCurrency">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="UAH">UAH</option>
+  </select>
+  <select id="toCurrency">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="UAH">UAH</option>
+  </select>
+  <button onclick="convert()">Конвертувати</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
